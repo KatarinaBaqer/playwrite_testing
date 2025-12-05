@@ -1,12 +1,6 @@
 const { test, expect, request } = require('@playwright/test');
 
-// API test suite for the DummyJSON service.  This suite exercises
-// common HTTP methods (GET, POST, PUT and DELETE) against the
-// products resource.  The DummyJSON API is a free fake REST API
-// designed for testing and prototyping; operations such as
-// creating, updating and deleting products are simulated but do not
-// persist on the server.  Refer to the official documentation for
-// details【490333067743040†L1185-L1212】.
+
 
 test.describe('DummyJSON products API', () => {
   /**
